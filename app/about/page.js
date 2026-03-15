@@ -1,5 +1,11 @@
 import React from "react";
 
 export default function About() {
-  return <div>About us page</div>;
+  throw new Error("There was a huge error!");
+
+  return (
+    <main>
+      <div>About us page</div>
+    </main>
+  );
 }
