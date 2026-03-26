@@ -10,7 +10,7 @@ export default function Misson() {
       <h3>lorem4aldjfaslkjflajfoejfoad</h3>
 
       <div className="w-[400]">
-        <Image src={pimg} alt="p=img" />
+        <Image placeholder="blur" src={pimg} alt="p=img" />
       </div>
 
       <Button />
