@@ -3,6 +3,11 @@ import Image from "next/image";
 import React from "react";
 import pimg from "@/public/images/img.jpg";
 
+export const metadata = {
+  title: "About",
+  description: "About page us",
+};
+
 export default function Misson() {
   return (
     <div>
