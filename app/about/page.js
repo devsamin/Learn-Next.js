@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function About() {
-  throw new Error("There was a huge error!");
+  // throw new Error("There was a huge error!");
 
   return (
     <main>

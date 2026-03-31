@@ -7,8 +7,8 @@ export default async function Comment({ CommentsPromise }) {
     <div>
       <h1> All Comments</h1>
       <hr></hr>
-      <ul className="mt-2">
-        {comments.map((comment) => (
+      <ul>
+        {comments?.map((comment) => (
           <li key={comment.id}>{comment.body}</li>
         ))}
       </ul>
